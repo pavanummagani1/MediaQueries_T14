@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    height: 60px;
+    padding: 20px;
+    font-size: 1em;
+    background-color:azure;
+    box-shadow: 0px 2px 2px #203040;   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+@media screen and (width<500px){
+    nav{
+        display: none;
+    }
+}
